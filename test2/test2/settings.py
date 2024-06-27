@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 """
 Django settings for test2 project.
 
@@ -128,7 +128,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = 'social.user'
-=======
+
 """
 Django settings for test2 project.
 
@@ -252,4 +252,4 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
->>>>>>> 969013bc4181a2f2ffa7ebacee618a060c2bf1b7
+
