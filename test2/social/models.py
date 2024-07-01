@@ -11,7 +11,10 @@ class User(AbstractUser):
 
 
 class Post(models.Model):
-    text = models.TextField()
-    published_time = models.DateTimeField(auto_now=True)
+    title = models.CharField(max_length=120)
+    description = models.TextField()
+    author = models.ForeignKey(User, on_delete=models.CASCADE)
+    updated_date = models.DateTimeField(auto_now_add=True)
+
 
 
